@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="love"></div>
+<div class="text">I love u virus</div>
+<div><button>click here to explode</button></div>
+</body>
+</html>
+<style type="text/css">
+	 .love {
+    position: fixed;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    transform: rotate(-45deg) ;
+    color: #ffffff;
+ box-shadow: 52px 22px 60px 0px red;
+  }
+  .love::after {
+    background-color: red;
+    content: "";
+    border-radius: 50%;
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    top: 0px;
+    left: 100px;
+  }
+  .love::before {
+    content:"" ;
+    background-color: red;
+    border-radius: 200%;
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    top: -100px;
+    left: 0px;
+  }
+  .text{
+  	position: absolute;
+  	margin: 254px 0px 0px 556px;
+  	font-size: 46px;
+  	color: #ffffff;
+text-shadow:  20px 12px 45px 0px #ffffff;
+  }
+  button{
+  	font-size: 28px;
+  	color: red;
+  	align-self: center;
+  	margin: 556px 0px 0px 521px
+  }
+style>
